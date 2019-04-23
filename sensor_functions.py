@@ -62,4 +62,8 @@ def lcd_shutdown():
     mylcd.lcd_display_string('Goodbye!', 4)
 
     sleep(5)
+<<<<<<< HEAD
     mylcd.lcd_clear()
+=======
+    mylcd.lcd_clear()
+>>>>>>> 147754cf77afae7a4aea729bc402cae1e5e658fe
