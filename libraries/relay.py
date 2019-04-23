@@ -28,8 +28,8 @@ def relay_loop():
 
 state = GPIO.input(relay1_gpio)
 
-if state == 0:
-  relay1_off()
-else:
-  relay1_on()
+# if state == 0:
+#   relay1_off()
+# else:
+#   relay1_on()
 

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from libraries import I2C_LCD_driver as lcd_lib
+from libraries import relay
 import Adafruit_DHT
 import distance as dst
 from time import *
@@ -63,3 +64,9 @@ def lcd_shutdown():
 
     sleep(5)
     mylcd.lcd_clear()
+
+def fan_check():
+  if state == 0:
+    relay.relay1_off()
+  else:
+    relay.relay1_on()
