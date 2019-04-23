@@ -32,8 +32,4 @@ if state == 0:
   relay1_off()
 else:
   relay1_on()
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 147754cf77afae7a4aea729bc402cae1e5e658fe
